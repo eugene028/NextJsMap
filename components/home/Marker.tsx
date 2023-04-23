@@ -14,7 +14,7 @@ const Marker = ({ map, coordinates, icon, onClick }: Marker): null => {
         }
 
         if (onClick) {
-        naver.maps.Event.addListener(marker, 'click', onClick);
+            naver.maps.Event.addListener(marker, 'click', onClick);
         }
 
         return () => {

@@ -19,6 +19,7 @@ const useMap = () => {
     /** https://navermaps.github.io/maps.js.ncp/docs/naver.maps.Map.html#morph__anchor */
     map.morph(new naver.maps.LatLng(...INITIAL_CENTER), INITIAL_ZOOM);
   }, [map]);
+  //부드러운 화면 UX, 현재 지도의 중심 좌표, 줌 레벨 변경 (초기로)
 
   const getMapOptions = useCallback(() => {
     const mapCenter = map.getCenter();
@@ -27,6 +28,7 @@ const useMap = () => {
 
     return { center, zoom };
   }, [map]);
+  //현재 지도의 중심좌표, 줌 리턴.
 
   return {
     initializeMap,

@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.15.12"],\
             ["@types/react", "npm:18.0.37"],\
             ["@types/react-dom", "npm:18.0.11"],\
+            ["copy-to-clipboard", "npm:3.3.3"],\
             ["eslint", "npm:8.22.0"],\
             ["eslint-config-next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
             ["eslint-config-prettier", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:8.8.0"],\
@@ -955,6 +956,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/console-control-strings-npm-1.1.0-e3160e5275-8755d76787.zip/node_modules/console-control-strings/",\
           "packageDependencies": [\
             ["console-control-strings", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["copy-to-clipboard", [\
+        ["npm:3.3.3", {\
+          "packageLocation": "./.yarn/cache/copy-to-clipboard-npm-3.3.3-6964e6cfad-e0a325e39b.zip/node_modules/copy-to-clipboard/",\
+          "packageDependencies": [\
+            ["copy-to-clipboard", "npm:3.3.3"],\
+            ["toggle-selection", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3059,6 +3070,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.15.12"],\
             ["@types/react", "npm:18.0.37"],\
             ["@types/react-dom", "npm:18.0.11"],\
+            ["copy-to-clipboard", "npm:3.3.3"],\
             ["eslint", "npm:8.22.0"],\
             ["eslint-config-next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
             ["eslint-config-prettier", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:8.8.0"],\
@@ -4104,6 +4116,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["to-regex-range", "npm:5.0.1"],\
             ["is-number", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["toggle-selection", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/toggle-selection-npm-1.0.6-c506b73005-a90dc80ed1.zip/node_modules/toggle-selection/",\
+          "packageDependencies": [\
+            ["toggle-selection", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
