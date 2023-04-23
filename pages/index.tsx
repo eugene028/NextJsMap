@@ -1,10 +1,11 @@
 import HeaderComponent from "@/components/common/Header";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import styles from '../styles/header.module.scss';
 import Link from "next/link";
 import { Store } from "@/types/store";
 import MapSection from "@/components/home/MapSection";
 import { NextPage } from "next";
+import useStores from "@/hooks/useStore";
 
 interface Props {
   stores: Store[];
@@ -12,7 +13,12 @@ interface Props {
 
 
 const Home: NextPage<Props> = ({stores}) => {
-  console.log(stores);
+  const { initializeStores } = useStores();
+
+  useEffect(() => {
+    initializeStores(stores); //전역 상태 업데이트
+  }, [initializeStores, stores]);
+
   return (
     <Fragment>
       <HeaderComponent rightElements={[
