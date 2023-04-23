@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+//전역 div인 __next를 스타일링 하기 어렵기 때문에
+@layer base {
+  #__next {
+    display: contents;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
