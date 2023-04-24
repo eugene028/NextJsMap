@@ -19,7 +19,9 @@ const Header = () => {
     
     return (
         <>
-            <HeaderComponent rightElements={[
+            <HeaderComponent 
+            onClickLogo={resetMapOptions}
+            rightElements={[
                 <button 
                     onClick={replaceAndCopyUrl}
                     className = {styles.box}

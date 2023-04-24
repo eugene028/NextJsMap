@@ -8,11 +8,11 @@ interface Props {
   rightElements?: React.ReactElement[];
 }
 
-const HeaderComponent = ({rightElements}: Props) => {
+const HeaderComponent = ({onClickLogo, rightElements}: Props) => {
   return (
     <header className={styles.header}>
       <div className={styles.flexItem}>
-        <Link href = "/" className =  {styles.box}>
+        <Link href = "/" className =  {styles.box} onClick = {onClickLogo}>
             <Image src = "/inflearn.png" width ={110} height = {20} alt="인프런 로고"/>   
         </Link> 
       </div>
