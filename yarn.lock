@@ -2440,6 +2440,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-seo@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "next-seo@npm:6.0.0"
+  peerDependencies:
+    next: ^8.1.1-canary.54 || >=9.0.0
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: aa986b3731386bc91408df6bca09a9edc0cdd8a7730bcdc331f283ab50803a6d60047b685eeec4b11bde1660dbb792e3737e81ef05a65682323d0d07fa9edd85
+  languageName: node
+  linkType: hard
+
 "next-transpile-modules@npm:^10.0.0":
   version: 10.0.0
   resolution: "next-transpile-modules@npm:10.0.0"
@@ -2522,6 +2533,7 @@ __metadata:
     eslint-config-next: 13.3.0
     eslint-config-prettier: ^8.8.0
     next: 13.3.0
+    next-seo: ^6.0.0
     next-transpile-modules: ^10.0.0
     prettier: 2.8.7
     react: 18.2.0

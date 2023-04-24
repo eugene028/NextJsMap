@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
             ["eslint-config-prettier", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:8.8.0"],\
             ["next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
+            ["next-seo", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:6.0.0"],\
             ["next-transpile-modules", "npm:10.0.0"],\
             ["prettier", "npm:2.8.7"],\
             ["react", "npm:18.2.0"],\
@@ -3051,6 +3052,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["next-seo", [\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/next-seo-npm-6.0.0-d1aee42f79-aa986b3731.zip/node_modules/next-seo/",\
+          "packageDependencies": [\
+            ["next-seo", "npm:6.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:6.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/next-seo-virtual-fa668e2187/0/cache/next-seo-npm-6.0.0-d1aee42f79-aa986b3731.zip/node_modules/next-seo/",\
+          "packageDependencies": [\
+            ["next-seo", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:6.0.0"],\
+            ["@types/next", null],\
+            ["@types/react", "npm:18.0.37"],\
+            ["@types/react-dom", "npm:18.0.11"],\
+            ["next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/next",\
+            "@types/react-dom",\
+            "@types/react",\
+            "next",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["next-transpile-modules", [\
         ["npm:10.0.0", {\
           "packageLocation": "./.yarn/cache/next-transpile-modules-npm-10.0.0-35632e5048-3300fc7081.zip/node_modules/next-transpile-modules/",\
@@ -3075,6 +3106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
             ["eslint-config-prettier", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:8.8.0"],\
             ["next", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:13.3.0"],\
+            ["next-seo", "virtual:2e1803a8c7fa0fe148755cf80dd43274a83df252c9807b23ef467583420dfece47195192aed8f626f497aa65876847f7b09c439f94ae46ebb43bea03c074cb4c#npm:6.0.0"],\
             ["next-transpile-modules", "npm:10.0.0"],\
             ["prettier", "npm:2.8.7"],\
             ["react", "npm:18.2.0"],\

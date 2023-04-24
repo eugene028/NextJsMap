@@ -27,10 +27,11 @@ const Header = () => {
                     className = {styles.box}
                     key = "button"
                     style = {{ marginRight: 8 }}
+                    aria-label ="현재 위치 클립보드 복사"
                 >
                     공유하기
                 </button>,
-                <Link href = "/feedback" className = {styles.box} key = "link">
+                <Link href = "/feedback" className = {styles.box}  aria-label ="피드백 페이지로 이동" key = "link">
                     피드백
                 </Link>,        
             ]}
