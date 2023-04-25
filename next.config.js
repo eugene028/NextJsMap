@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: false,
   images: {
-    domains: ['inflearn-nextjs.vercel.app', 'search.pstatic.net'],
+    domains: ['inflearn-nextjs.vercel.app', 'search.pstatic.net', 'next-js-map.vercel.app'],
   },
   i18n: {
     locales: ['ko'],
